@@ -1,0 +1,61 @@
+\chapter{Logistics Approach}
+\label{ch:log}
+
+% Writing: Maaike
+% checked by:     Sonny, Viktor     on: 22-05-2017
+% revised by:    Liv        on:
+
+The logistics flow diagram in \autoref{fig:log} shows an overview of the logistic movements of the lunar habitat. The blocks in the flow represent different logistic steps. Blocks that are linked in series are chronological. Blocks that are parallel are logistic movements that happen in the same phase but are not necessarily to be performed in a fixed specific sequence.  At the bottom of each block, the qualitative size and amount of launches that is expected for that specific step are stated. In case the step does not include any launches these are not applicable (N/A). For blocks 2 and 4 it is expected that the tooling can be transported in one go. The specific tools for block 4 will then be left unused until that stage.
+
+\begin{figure}[ht]
+    \centering
+    \vspace{1cm}
+    \includegraphics[scale = 0.5]{Figures/logistics}
+    \caption{Logistic Flow Diagram.}
+    \label{fig:log}
+\end{figure}
+
+The flow diagram in \autoref{fig:log} can be split into three phases: the preparations phase (1-4), the assembly phase (5-13) and the operational phase (14-25).\\
+\newpage
+The preparation phase will start by rovers scouting the potential location. These rovers should assess whether the location meets the following location requirements:\\
+
+\begin{tabular}{L{2.5cm} L{15cm}}
+{[}MR-LO{]} & The lunar habitat shall be located on the near side of the Moon.\\
+\end{tabular}
+
+\begin{tabular}{L{0.32cm}lp{11.5cm}}
+& {[}MR-LO-01{]} & The ground shall be able to endure the loads of the lunar base without slipping or sinking.\\
+& {[}MR-LO-02{]} & The landing site shall not contain any debris or rocks, that are to big to be moved by the infrastructural preparation robots.\\
+& {[}MR-LO-03{]} & The landing side shall be distanced sufficiently from mountain ranges to prevent potential dust avalanches covering the base.\\
+& {[}MR-LO-04{]} & The landing site shall provide enough surface area, which will not be compromised by shadows during the illumination time for the solar panels.\\
+& {[}MR-LO-05{]} & The surface shall not contain any vast abrupt changes in composition, that are likely to cause shallow quakes. \\
+& {[}MR-LO-06{]} & The location shall provide a continuous space of at least 0.17km$^2$ which is accessible by lunar vehicle.\\
+\end{tabular}
+\newline
+
+If the these requirements are met, beacons can be placed and the infrastructure preparation robots can be send to the moon. These will prepare the launch and landing pads and the location for the solar panels and the communication system. Once this is done these systems can be transported and then used to prepare the location of the base. The preparations will consist of backblading, levelling and stabilisation of the soil to create a good foundation for the base \cite{NexGen}.\\
+
+The assembly phase will be started by sending up the supportive structure and its integrated systems such as shielding and thermal systems. In the next stage, the remaining systems and necessary tools for assembly and transportation are send up as well as the astronauts and the initial supplies. These all have to be transported to the habitat site and then assembly and storing can be performed \cite{NexGen}.\\ 
+
+The final phase consists of nominal operations, which is a continuous cycle and consists of extending the base, resupplying the base and returning items. The base extensions might require more preparatory work, but since they are not defined yet at this stage, they are not included in the logistic flow. The resupplies comprise of consumables, medical supplies, tools, spare parts, gas and fuel refills and astronauts \cite{Haughton}. For each resupply mission it is necessary to determine resupplies necessary, then these resupplies need to be packed into a lander, shipped to the moon and transported on the moon to the habitat and eventually they need to be assembled, used or stored in the habitat. In the ISS a scanning system is used to keep track of the stored items and determine what needs to be resupplied \cite{Logis}. It is estimated that the habitat will require about 25 tonnes per year \cite{DRLS}. The return missions consist of sending back astronauts and certain goods, which can be for example waste, research items or broken parts \cite{Logis}.
+
+
+
+\begin{comment}
+\section{Location Characteristics}
+\begin{figure}
+        \centering
+        \includegraphics[width=\textwidth]{Figures/Locations.jpg}
+        \caption{The two different locations which will be considered: the Apollo 11 and Apollo 17 landing sites\protect\footnotemark.}
+        \label{fig:loc}
+    \end{figure}\hfill
+
+For this mission, two particular locations on the Moon are examined for the construction of the habitat. These locations are the landing sites of Apollo 11 and 17.
+The Apollo 11 landing site is located in the south-west part of the Mare Tranquillitatis, as can be seen in \autoref{fig:loc}. The precise location where the lunar module landed, is called the Statio Tranquillitatis. This location can be characterised as a generally smooth area, without many deviations in elevation. Some craters are located around the landing location such as the West Crater, which lies around 500m east of Apollo 11 and has a depth of 30m. The Little West Crater lies 60m to the East and is approximately 5m deep. Several rocks can also be found around Statio Tranquillitatis, although they are usually not large in size, i.e. smaller than 0.8m in diameter \cite{Apollo11}.\\
+
+
+\footnotetext{history.msfc.nasa.gov/saturn\_apollo/photos/images/apollo17\_006.jpg [Cited: 09-05-2017]}
+
+The Apollo 17 landing site is located between the Mare Tranquillitatis and the Mare Serenitatis, as can be seen in \autoref{fig:loc}. The landing site is called the Taurus-Littrow valley, named after the Taurus mountain range in which it lies, and the Littrow crater which is located north of it. This location can thus be characterised as flat, with hills and mountains in relatively close proximity \cite{Apollo17}.
+The Taurus-Littrow valley is several kilometres wide. The Lee-Lincoln Scarp, which resembles a large crack in the lunar surface, is located around 5km west of the landing site. There are several boulders and rocks scattered around the valley. Although the valley is relatively flat when compared to the height of the massifs around it, there are quite some craters in the valley, varying in size and depth. Some of them, e.g. the Camelot crater, are as big as 600m in diameter, while many smaller craters also exist.
+\end{comment}
