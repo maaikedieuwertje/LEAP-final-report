@@ -1,0 +1,48 @@
+\documentclass{tudelft-report}
+\usepackage{rotating}
+\usepackage{colortbl}
+\usepackage{tabularx,ragged2e}
+\usepackage{multirow}
+\usepackage{float}
+\usepackage{verbatim}
+\usepackage{pifont}
+\newcommand{\cmark}{\ding{51}}%
+\newcommand{\xmark}{\ding{55}}
+\usepackage{graphicx,wrapfig,lipsum}
+\newcolumntype{L}[1]{>{\raggedright\let\newline\\\arraybackslash\hspace{0pt}}m{#1}}
+\usepackage{siunitx}
+\setlength{\parindent}{0pt}
+\raggedbottom
+\let\cleardoublepage\clearpage
+\usepackage[version=4]{mhchem}
+\usepackage{cleveref}
+\usepackage{longtable}
+\usepackage{adjustbox}
+\renewcommand*{\thefootnote}{[\arabic{footnote}]}
+
+% Manually added (not in original template)
+\usepackage{pdfpages} % to includes PDF's
+\usepackage{mwe}
+\usepackage{wrapfig} % for wrapping text around figures: https://www.sharelatex.com/learn/Wrapping_text_around_figures
+
+
+\begin{document}
+
+%% Use Roman numerals for the page numbers of the title pages and table of contents.
+\frontmatter
+
+\title[DSE Spring 2017: Midterm Report (draft)]{The conceptual design of a lunar habitat for 4 astronauts staying on the moon for 1 year}
+\author{K. Dhoore{,} V. Gutgesell{,}  V. Jordanov{,} S. Kistemaker{,} S. Lie{,} M. Mendonck{,} K. Moesker{,} V. Poorte{,} L. Toonen and M. de Wit}
+\affiliation{Technische Universiteit Delft}
+%\coverimage{cover/Cover}
+%\makecover
+
+\includepdf[pages={-}]{cover/CoverMidterm(draft).pdf}
+
+\tableofcontents
+
+%% Use Arabic numerals for the page numbers of the chapters.
+\mainmatter
+
+\input{stuff}
+\end{document}
